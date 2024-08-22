@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css or your global stylesheet */
+.carousel, .carousel * {
+  user-select: none; /* Prevent text selection */
+}
+
+.carousel .slide {
+  cursor: grab; /* Indicate draggable items */
+}
+
+.carousel .slide:active {
+  cursor: grabbing; /* Indicate dragging */
+}
+
+
